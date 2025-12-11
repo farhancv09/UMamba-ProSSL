@@ -1,0 +1,19 @@
+tqdm
+torch 
+lightning 
+torchmetrics
+torchvision
+monai[all]
+wandb
+munch
+pandas
+seaborn
+ipywidgets
+nnunetv2
+mamba_ssm
+picai_eval
+ipykernel
+picai_prep
+picai_baseline
+gdown
+-e .

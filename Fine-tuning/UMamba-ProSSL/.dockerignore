@@ -1,0 +1,7 @@
+*.ckpt
+__pycache__/
+node_modules/
+.git
+.env
+*.nii.gz
+

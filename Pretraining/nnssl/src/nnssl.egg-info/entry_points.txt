@@ -1,0 +1,8 @@
+[console_scripts]
+nnssl_convert_openmind = nnssl.data.dataset_conversion.Dataset001_Openmind:main
+nnssl_extract_fingerprint = nnssl.experiment_planning.plan_and_preprocess_entrypoints:extract_fingerprint_entry
+nnssl_plan_and_preprocess = nnssl.experiment_planning.plan_and_preprocess_entrypoints:plan_and_preprocess_entry
+nnssl_plan_experiment = nnssl.experiment_planning.plan_and_preprocess_entrypoints:plan_experiment_entry
+nnssl_preprocess = nnssl.experiment_planning.plan_and_preprocess_entrypoints:preprocess_entry
+nnssl_train = nnssl.run.run_training:run_training_entry
+nnssl_train_wandb = nnssl.run.run_training_wandb:run_training_entry

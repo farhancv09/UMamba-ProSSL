@@ -1,0 +1,18 @@
+*.DS_Store
+**/__pycache__/
+**/trained_models/
+**/shared_modules.egg-info/
+**/wandb/
+**/prob_map/
+**/backup/
+**/docker_inference/
+Dockerfile
+*.tar.gz
+*.ckpt
+
+# Ignore datasets
+data/**
+!data/prostate158/readme.md
+!data/PI-CAI-V2.0/plan_overview.py
+!data/PI-CAI-V2.0/prepare_data_semi_supervised.py
+!data/PI-CAI-V2.0/readme.md
